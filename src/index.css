@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-950: #0B0E14;
+  --color-slate-900: #151921;
+  --color-slate-850: #1a1f29;
+  --color-slate-800: #1e293b;
+  
+  --color-indigo-500: #0891b2; /* Cyan-600 style mapping */
+  --color-indigo-600: #06b6d4; /* Cyan-500 style mapping */
+  --color-indigo-700: #0e7490; /* Cyan-700 style mapping */
+  --color-indigo-400: #22d3ee; /* Cyan-400 style mapping */
+  --color-indigo-300: #67e8f9; /* Cyan-300 style mapping */
+}
+
+/* Custom scrollbars for high-density tabular scrolling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0E14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}

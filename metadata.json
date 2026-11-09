@@ -1,0 +1,6 @@
+{
+  "name": "Tennis Tour Simulator",
+  "description": "A text-based career tennis tour simulation featuring a structured calendar, advanced match engine, 175-player dynamic roster (including 25 field fillers), and career stat tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
